@@ -105,3 +105,37 @@ a {
     border-color: #3882f6;
     border-radius: 15%;
 }
+
+.info {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    align-items: center;
+}
+
+.info.container {
+    display: flex;
+    flex-direction: column; 
+    flex: 0 0 auto;
+    gap: 20px;
+    padding-top: 35px;
+}
+
+.info.text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.sections {
+    display: flex;
+    flex: 0 1 auto;
+    width: 600px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+    flex: 1;
+}
